@@ -1,2 +1,3 @@
-# llm-reliability-patterns
-Anti-confabulation engineering patterns for LLM data pipelines
+Generic, IP-safe engineering patterns for forcing honesty in LLM data pipelines: receipt-echo verification, provenance tagging (DIRECT / COMPUTED / OVERRIDE / MISSING), copy-forward baseline locks, regression diff guards, schema drift detection, atomic step execution, self-check gates, halt-over-guess protocols. Each pattern documented with a generic worked example, failure mode it prevents, and copy-paste template.
+
+This repo earns the “AI prompt engineer” credibility on its own — it’s real engineering, none of it touches scoring logic, and it’s the one that collects stars.
